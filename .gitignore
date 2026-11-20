@@ -1,0 +1,5 @@
+# Keep this repository limited to the reviewed tester documentation.
+/*
+!/.gitignore
+!/README.md
+!/instructions.md
