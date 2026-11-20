@@ -1,15 +1,9 @@
-# PJD Testing
+# PJD testing
 
-Private testing notes and bug reports for PJD.
+Dean maintains the private Jade Dynasty server. Jake playtests the Windows client. Their assistants exchange assignments and findings in the [shared work folder](shared/README.md). Both PCs can check the mailbox automatically every five minutes.
 
-Tell your assistant: **“Read [instructions.md](instructions.md), briefly explain where we are, and help me test PJD.”**
+**Start here on Jake’s PC.** With a checkout of this repo, follow the [one-time helper setup](shared/README.md#one-time-windows-setup). A Codex session opened in this repo will also find the tester instructions automatically.
 
-**Client download:** `PJD-Tester-V21-21003-Jade-v1.zip` is ready (5.6 GB), including the custom PJD launcher skin; its private download link will be added here once hosted.
+**Play.** Use the full client Jake received privately, connect through Tailscale, open `patcher/patcher.exe`, let it update, and click Start. The original full package was `PJD-Tester-V21-21003-Jade-v1.zip` with the Jade skin. Existing testers can use their current installation and patch forward. [PJD Updates](https://pjd-updates.pages.dev)
 
-**Updates:** the native patcher uses [PJD Updates](https://pjd-updates.pages.dev). With the owner's patcher setup installed, open **Start PJD.cmd** or **patcher/patcher.exe**, let updates finish, then click Start. The initial full client is required once; future patches download changed content.
-
-**Existing client:** the owner can provide `PJD-Patcher-Skin-Jade-v1.zip` (5.1 MB). Close the game and patcher, then extract it into the client root, replacing the skin files. This one-time art update is already included in the full client above; automatic patcher skin updates are not enabled.
-
-**Connection:** the owner's Tailscale game connection is prepared; your invitation and separate game login are pending. The owner will provide access details privately.
-
-Use this repository's Issues for bug reports. Keep game binaries and credentials outside this repository.
+**Report.** Send playtest results through the [mailbox](shared/messages.jsonl). Use a GitHub issue for a bug that needs longer-term tracking and include the issue number in the report. Credentials and game binaries stay outside the repo. [Tester instructions](instructions.md)

@@ -1,7 +1,5 @@
-# PJD tester instructions
+# Jake’s playtest helper
 
-PJD is a private Jade Dynasty PvP server using the EN 3.1.1 client with V21 installed; corrections to start Chi at Chi of Purity and limit trinkets to levels 1–10 followed by one, two and three stars are pending.
+Check [shared/messages.jsonl](shared/messages.jsonl) when starting a session. Take the latest relevant assignment from Dean. Help Jake test in the game or interpret screenshots and local client logs he provides. Record the character, patch revision, steps, expected outcome and observed outcome. Record untested behavior explicitly.
 
-Brief the tester in two sentences, help them connect once the owner provides the matching client, patcher setup, Tailscale access and a separate game login, then use Start PJD.cmd to update before testing NPC shops, exchanges, crafting, equipment and normal save/relog.
-
-For each new bug, prepare a short report with reproduction steps, expected versus actual results, character name, client version and a screenshot when useful; keep credentials private and leave server changes to the owner.
+Send the findings with `python shared/relay.py helper send --kind report --text "…"`. Use `note` for simple progress updates and `request` for a question that needs an answer. The [shared workflow](shared/README.md) covers setup, synchronization and timers. Dean handles edits to server content, review and deployment.

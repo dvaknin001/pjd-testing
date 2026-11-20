@@ -3,3 +3,10 @@
 !/.gitignore
 !/README.md
 !/instructions.md
+!/AGENTS.md
+!/shared/
+/shared/*
+!/shared/README.md
+!/shared/messages.jsonl
+!/shared/relay.py
+!/shared/install.ps1
